@@ -1,0 +1,16 @@
+{
+  "name": "lock_and_learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:dashboard": "cd apps/dashboard && npm run dev",
+    "dev:landing-page": "cd apps/landing-page && npm run dev",
+    "dev:device-wrapper-electron": "cd apps/device-wrapper && electron .",
+    "dev:device-wrapper-react-native": "cd apps/device-wrapper && npx react-native run-android",
+    "dev:supabase": "cd supabase && supabase start"
+  },
+  "dependencies": {
+    // "Add shared dependencies if needed"
+  }
+}
